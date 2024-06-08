@@ -1,9 +1,9 @@
 :root {
-	--bg: darkslategrey;
+	--bg: rgb(7, 1, 58);
 	--bgSoft: #b3b3b3;
 	--text: white;
 	--textSoft: grey;
-	--btn: #009900;
+	--btn: #290099;
 }
 * {
 	margin: 0;
@@ -17,4 +17,15 @@ body {
 a {
 	text-decoration: none;
 	color: inherit;
+}
+.container {
+	background-color: rgba(75, 7, 178, 0.945);
+	width: 75%;
+	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
