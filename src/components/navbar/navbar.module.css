@@ -1,5 +1,4 @@
 .container {
-	background-color: rgba(42, 3, 102, 0.945);
 	height: 100px;
 	display: flex;
 	align-items: center;
@@ -8,4 +7,8 @@
 .logo {
 	font-size: 30px;
 	font-weight: bold;
+	padding-left: 20px;
+}
+.link {
+	padding-right: 20px;
 }

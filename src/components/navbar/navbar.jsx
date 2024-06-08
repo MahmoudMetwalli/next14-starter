@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>Logo</div>
-      <div>
+      <div className={styles.link}>
         <Links />
       </div>
     </div>
