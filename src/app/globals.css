@@ -19,8 +19,7 @@ a {
 	color: inherit;
 }
 .container {
-	background-color: rgba(75, 7, 178, 0.945);
-	width: 75%;
+	width: 1200px;
 	margin: auto;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -28,4 +27,24 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+@media(max-width: 992px){
+	.container {
+		width: 700px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media(max-width: 768px){
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 600px){
+	.container {
+		width: 500px;
+	}
 }
