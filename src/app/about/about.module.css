@@ -1,5 +1,17 @@
+.container {
+	display: flex;
+	align-items: center;
+}
+
+.textContainer {
+	flex: 1;
+}
+.textContainer h1 {
+	font-size: 50px;
+}
 .imageContainer {
+	flex: 1;
 	position: relative;
-	width: 50%;
+	width: 500px;
 	height: 500px;
 }
